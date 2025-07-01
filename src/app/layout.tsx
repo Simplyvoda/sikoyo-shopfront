@@ -14,7 +14,7 @@ const spectral = Spectral({
 export const metadata: Metadata = {
   title: "Sikoyo Jewelry",
   description:
-    "For the woman who believes in the power of the perfect accessory. Our gold jewelry collection turns simple into stunning. Luxury that fits your lifestyle and budget.",
+    "For the woman who believes in the power of the perfect accessory. Our gold jewelry collection turns simple into stunning. Affordable luxury that fits your lifestyle and budget.",
   keywords:
     "gold jewelry Nigeria, affordable luxury jewelry, women gold accessories, elegant jewelry collection, modern African jewelry brand, gold jewelry USA",
   icons: {
@@ -23,9 +23,16 @@ export const metadata: Metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Sikoyo - Where Simplicity Meets Luxury",
+    title: "Sikoyo Jewelry",
     description:
-      "For the woman who believes in the power of the perfect accessory. Gold jewelry that speaks to your soul.",
+      "For the woman who believes in the power of the perfect accessory. Affordable luxury jewelry.",
+    images: [
+      {
+        url: "https://sikoyojewelry.com/sikoyo_logo.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
     type: "website",
     locale: "en_US",
     siteName: "Sikoyo Jewelry",
@@ -62,6 +69,24 @@ export default function RootLayout({
           href="/apple-touch-icon.png"
         />
         <link rel="manifest" href="site.webmanifest" />
+
+        <meta
+          property="og:image"
+          content="https://sikoyojewelry.com/sikoyo_logo.png"
+        />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Sikoyo Jewelry" />
+        <meta
+          name="twitter:description"
+          content="For the woman who believes in the power of the perfect accessory. Affordable luxury that fits your lifestyle and budget."
+        />
+        <meta
+          name="twitter:image"
+          content="https://sikoyojewelry.com/sikoyo_logo.png"
+        />
 
         <meta name="DC.coverage" content="Nigeria, United States" />
         <meta name="geo.region" content="NG-OY, US" />
