@@ -87,7 +87,7 @@ export default function RootLayout({
           name="twitter:image"
           content="https://sikoyojewelry.com/sikoyo_logo.png"
         />
-
+        
         <meta name="DC.coverage" content="Nigeria, United States" />
         <meta name="geo.region" content="NG-OY, US" />
         <meta name="geo.country" content="NG, US" />
