@@ -6,13 +6,13 @@ export default function Home() {
           <span className="text-[var(--color-brushed-gold)]">SIKOYO</span> is
           Coming Soon
         </h1>
-        <p className="mt-4 text-lg md:text-xl max-w-xl mx-auto [font-family:var(--font-spectral)] text-[var(--color-bone)]">
+        <p className="mt-5 text-lg md:text-xl max-w-xl mx-auto [font-family:var(--font-spectral)] text-[var(--color-bone)]">
           For the woman who believes in the power of the perfect accessory —
           timeless gold pieces designed to turn simple into stunning.
         </p>
       </div>
 
-      <footer className="mt-8 text-sm text-[var(--color-bone)] opacity-80 text-center font-inter">
+      <footer className="mt-10 text-sm text-[var(--color-bone)] opacity-80 text-center font-inter">
         <p>
           Follow us on{" "}
           <a
