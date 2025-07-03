@@ -70,6 +70,19 @@ export default function RootLayout({
         />
         <link rel="manifest" href="site.webmanifest" />
 
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "SIKOYO",
+              url: "https://www.sikoyojewelry.com",
+              logo: "https://www.sikoyojewelry.com/sikoyo_logo.png",
+            }),
+          }}
+        />
+
         <meta
           property="og:image"
           content="https://sikoyojewelry.com/sikoyo_logo.png"
@@ -77,7 +90,7 @@ export default function RootLayout({
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
 
-        <meta name="twitter:card" content="summary_small_image" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Sikoyo Jewelry" />
         <meta
           name="twitter:description"
@@ -87,7 +100,7 @@ export default function RootLayout({
           name="twitter:image"
           content="https://sikoyojewelry.com/sikoyo_logo.png"
         />
-        
+
         <meta name="DC.coverage" content="Nigeria, United States" />
         <meta name="geo.region" content="NG-OY, US" />
         <meta name="geo.country" content="NG, US" />
