@@ -78,14 +78,14 @@ export default function RootLayout({
               "@type": "Organization",
               name: "SIKOYO",
               url: "https://www.sikoyojewelry.com",
-              logo: "https://www.sikoyojewelry.com/sikoyo_logo.png",
+              logo: "https://www.sikoyojewelry.com/web-app-manifest-512x512.png",
             }),
           }}
         />
 
         <meta
           property="og:image"
-          content="https://sikoyojewelry.com/sikoyo_logo.png"
+          content="https://sikoyojewelry.com/web-app-manifest-512x512.png"
         />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
